@@ -1,0 +1,125 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Papyrus", "Comic Sans MS";
+    background-color: #f0f0f0;
+}
+body {
+    background-image: url('download.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #d20606; 
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    background-color: #d20606; 
+    padding: 10px;
+    border-radius: 5px; }
+
+nav ul {  list-style-type: none;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#container {
+    max-width: 600px; 
+    width: 70%;
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    min-height: 600px;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#submit-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+input[type="submit"] {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #ff0000;
+    transition: background-color 0.3s;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #c139dc;}
+#course-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.course-option {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(50% - 20px); }
+    .course-option h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .course-option p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .course-option button {
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
